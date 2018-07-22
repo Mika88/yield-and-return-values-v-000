@@ -1,5 +1,4 @@
-
-array = ["Tim", "Tom", "Jim"]
+require 'pry'
 def hello(array)
   i = 0
   collection = []
@@ -13,4 +12,4 @@ end
 
 hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
 
-hello(array)
+binding.pry
